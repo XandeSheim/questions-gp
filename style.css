@@ -49,7 +49,15 @@ section {
 h1 {
     text-align: center;
     font-size: 40px;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+div.line {
+    height: 3px;
+    width: 610px;
+    background-color: black;
+    margin: 0px 15px 20px 20px;
 }
 
 h2 {
@@ -143,6 +151,13 @@ input.Ssubmit:hover {
 h1 {
     font-size: 25px;
     font-weight: bolder;
+}
+
+div.line {
+    height: 2px;
+    width: 295px;
+    background-color: black;
+    margin: 15px 15px;
 }
 
 h2 {
