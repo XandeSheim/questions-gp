@@ -144,14 +144,14 @@ input.Ssubmit {
     border-radius: 15px;
     margin-bottom: 20px;
     color: white;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.836);
 
 }
 
 input.Ssubmit:hover {
     color: rgb(255, 255, 255);
     text-decoration: underline;
-    background-color: rgb(70, 70, 70);
+    background-color: rgba(70, 70, 70, 0.562);
     
 }
 
