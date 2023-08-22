@@ -28,6 +28,12 @@ form {
     padding: 5px;
 }
 
+::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+
+
 section {
     display: block;
     position: absolute;
@@ -137,7 +143,7 @@ input.Ssubmit {
 input.Ssubmit:hover {
     color: rgb(255, 255, 255);
     text-decoration: underline;
-    background-color: rgb(48, 48, 48);
+    background-color: rgb(70, 70, 70);
     
 }
 
