@@ -219,7 +219,7 @@ textarea#iperguntas{
     width: 260px;
 }
 
-#inome:focus ~ .name {
+/*#inome:focus ~ .name {
     top: 113px;
     font-size: 15px;
     left: 32px;
@@ -229,7 +229,7 @@ textarea#iperguntas{
     top: 193px;
     font-size: 15px;
     left: 32px;
-}
+}*/
 
 
 input.Ssubmit {
