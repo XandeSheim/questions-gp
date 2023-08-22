@@ -29,9 +29,8 @@ form {
 }
 
 ::placeholder {
-    color: rgb(0, 0, 0);
+    color: rgb(46, 46, 46);
 }
-
 
 
 section {
@@ -118,6 +117,7 @@ input#inome {
     border: none;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.514);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.116);
 }
 
 textarea#iperguntas{
@@ -127,6 +127,7 @@ textarea#iperguntas{
     border-radius: 10px;
     border: none;
     background-color: rgba(255, 255, 255, 0.514);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.116);
 }
 
 input.Ssubmit {
@@ -206,12 +207,10 @@ label.question {
 input#inome {
     width: 260px;
     margin-bottom: 8px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.116);
 }
 
 textarea#iperguntas{
     width: 260px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.116);
 }
 
 input.Ssubmit {
