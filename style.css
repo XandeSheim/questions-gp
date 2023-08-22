@@ -78,7 +78,6 @@ p {
 }
 
 p.space1 {
-    position: relative;
     margin: 10px;
 }
 
@@ -93,10 +92,6 @@ p.space3 {
 
 
 label.name {
-    position: absolute;
-    top: 13%;
-    left: 2%;
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -106,24 +101,12 @@ label.name {
 }
 
 label.question {
-    position: absolute;
-    top: 10%;
-    left: 2%;
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 10px;
     margin-left: 0px;
-}
 
-.inputUser:focus ~ .name {
-    top: -20px;   
-}
-
-
-.inputUser:focus ~ .question {
-    top: -20px;   
 }
 
 input#inome {
@@ -135,7 +118,6 @@ input#inome {
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.514);
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.116);
-    margin-bottom: 30px;
 }
 
 textarea#iperguntas{
@@ -205,10 +187,6 @@ p.space2 {
 }
 
 label.name {
-    position: absolute;
-    top: 33%;
-    left: 7%;
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -218,10 +196,6 @@ label.name {
 }
 
 label.question {
-    position: absolute;
-    top: 51%;
-    left: 7%;
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -232,6 +206,7 @@ label.question {
 
 input#inome {
     width: 260px;
+    margin-bottom: 8px;
 }
 
 textarea#iperguntas{
