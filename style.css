@@ -70,7 +70,7 @@ h2 {
     text-align: center;
     font-size: 20px;
     font-weight: lighter;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 p {
@@ -92,21 +92,32 @@ p.space3 {
 
 
 label.name {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-bottom: 10px;
-    margin-left: 0px;
+    position: absolute;
+    top: 180px;
+    left: 35px;
+    transition: 0.2s;
+    
    
 }
 
 label.question {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-bottom: 10px;
-    margin-left: 0px;
+    position: absolute;
+    top: 260px;
+    left: 35px;
+    transition: 0.2s;
+}
 
+
+#inome:focus ~ .name {
+    top: 145px;
+    font-size: 15px;
+    left: 28px;
+}
+
+#iperguntas:focus ~ .question {
+    top: 225px;
+    font-size: 15px;
+    left: 28px;
 }
 
 input#inome {
@@ -114,16 +125,19 @@ input#inome {
     height: 20px;
     width: 600px;
     padding: 10px;
+    outline: none;
     border: none;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.514);
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.116);
+    margin-bottom: 30px;
 }
 
 textarea#iperguntas{
     height: 90px;
     width: 600px;
     padding: 10px;
+    outline: none;
     border-radius: 10px;
     border: none;
     background-color: rgba(255, 255, 255, 0.514);
@@ -187,31 +201,41 @@ p.space2 {
 }
 
 label.name {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-bottom: 10px;
-    margin-left: 15px;
+    position: absolute;
+    top: 148px;
+    left: 40px;
+    transition: 0.2s;
    
 }
 
 label.question {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-bottom: 10px;
-    margin-left: 15px;
+    position: absolute;
+    top: 228px;
+    left: 40px;
 
 }
 
 input#inome {
     width: 260px;
-    margin-bottom: 8px;
+    margin-bottom: 40px;
 }
 
 textarea#iperguntas{
     width: 260px;
 }
+
+#inome:focus ~ .name {
+    top: 113px;
+    font-size: 15px;
+    left: 32px;
+}
+
+#iperguntas:focus ~ .question {
+    top: 193px;
+    font-size: 15px;
+    left: 32px;
+}
+
 
 input.Ssubmit {
     padding: 10px 118px;
