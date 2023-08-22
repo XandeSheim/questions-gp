@@ -213,13 +213,15 @@ textarea#iperguntas{
     margin-bottom: 15px;
 }
 
-#inome:focus ~ .name {
+#inome:focus ~ .name,
+#inome:valid ~ .name {
     top: -22px;
     left: 13px;
     font-size: 13px;
 }
 
-#iperguntas:focus ~ .question {
+#iperguntas:focus ~ .question,
+#iperguntas:valid ~ .question {
     top: -22px;
     left: 13px;
     font-size: 13px;
