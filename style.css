@@ -97,14 +97,16 @@ label.question {
 }
 
 
-#inome:focus ~ .name {
+#inome:focus ~ .name,
+#inome:valid ~ .name {
     top: -23px;
     left: 5px;
     font-size: 15px;
     
 }
 
-#iperguntas:focus ~ .question {
+#iperguntas:focus ~ .question,
+#iperguntas:valid ~ .question {
     top: -23px;
     left: 5px;
     font-size: 15px;
