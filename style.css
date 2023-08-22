@@ -103,7 +103,7 @@ label.question {
 }
 
 
-#inome:focus ~ .name {
+/*#inome:focus ~ .name {
     top: 145px;
     font-size: 15px;
     left: 28px;
@@ -114,7 +114,7 @@ label.question {
     font-size: 15px;
     left: 28px;
 }
-
+*/
 input#inome {
     
     height: 20px;
