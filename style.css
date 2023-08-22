@@ -70,10 +70,7 @@ p {
 }
 
 p.space1 {
-    margin: 10px;
-}
-
-p.space2 {
+    position: relative;
     margin: 10px;
 }
 
@@ -85,8 +82,8 @@ p.space3 {
 
 label.name {
     position: absolute;
-    top: 180px;
-    left: 35px;
+    top: 10px;
+    left: 15px;
     transition: 0.2s;
     
    
@@ -94,22 +91,24 @@ label.name {
 
 label.question {
     position: absolute;
-    top: 260px;
-    left: 35px;
+    top: 10px;
+    left: 15px;
     transition: 0.2s;
 }
 
 
 #inome:focus ~ .name {
-    top: 145px;
+    top: -23px;
+    left: 5px;
     font-size: 15px;
-    left: 28px;
+    
 }
 
 #iperguntas:focus ~ .question {
-    top: 225px;
+    top: -23px;
+    left: 5px;
     font-size: 15px;
-    left: 28px;
+    
 }
 
 input#inome {
@@ -194,16 +193,15 @@ p.space2 {
 
 label.name {
     position: absolute;
-    top: 133px;
-    left: 40px;
-    transition: 0.2s;
+    top: 10px;
+    left: 25px;
    
 }
 
 label.question {
     position: absolute;
-    top: 213px;
-    left: 40px;
+    top: 10px;
+    left: 25px;
 
 }
 
@@ -214,18 +212,19 @@ input#inome {
 
 textarea#iperguntas{
     width: 260px;
+    margin-bottom: 15px;
 }
 
 #inome:focus ~ .name {
-    top: 98px;
+    top: -23px;
+    left: 13px;
     font-size: 15px;
-    left: 32px;
 }
 
 #iperguntas:focus ~ .question {
-    top: 178px;
+    top: -23px;
+    left: 13px;
     font-size: 15px;
-    left: 32px;
 }
 
 
