@@ -103,7 +103,7 @@ label.question {
 }
 
 
-/*#inome:focus ~ .name {
+#inome:focus ~ .name {
     top: 145px;
     font-size: 15px;
     left: 28px;
@@ -114,7 +114,7 @@ label.question {
     font-size: 15px;
     left: 28px;
 }
-*/
+
 input#inome {
     
     height: 20px;
@@ -197,7 +197,7 @@ p.space2 {
 
 label.name {
     position: absolute;
-    top: 148px;
+    top: 133px;
     left: 40px;
     transition: 0.2s;
    
@@ -205,7 +205,7 @@ label.name {
 
 label.question {
     position: absolute;
-    top: 228px;
+    top: 213px;
     left: 40px;
 
 }
@@ -219,17 +219,17 @@ textarea#iperguntas{
     width: 260px;
 }
 
-/*#inome:focus ~ .name {
-    top: 113px;
+#inome:focus ~ .name {
+    top: 98px;
     font-size: 15px;
     left: 32px;
 }
 
 #iperguntas:focus ~ .question {
-    top: 193px;
+    top: 178px;
     font-size: 15px;
     left: 32px;
-}*/
+}
 
 
 input.Ssubmit {
