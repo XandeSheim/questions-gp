@@ -212,15 +212,15 @@ textarea#iperguntas{
 }
 
 #inome:focus ~ .name {
-    top: -23px;
+    top: -22px;
     left: 13px;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 #iperguntas:focus ~ .question {
-    top: -23px;
+    top: -22px;
     left: 13px;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 
