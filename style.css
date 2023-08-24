@@ -73,14 +73,9 @@ p {
     text-align: center;
 }
 
-p.space1 {
+p.space {
     position: relative;
     margin: 10px;
-}
-
-p.space3 {
-    padding: 10px;
-    margin-bottom: 15px;
 }
 
 
@@ -98,23 +93,6 @@ label.question {
     top: 10px;
     left: 15px;
     transition: 0.2s;
-}
-
-
-#inome:focus ~ .name,
-#inome:valid ~ .name {
-    top: -23px;
-    left: 5px;
-    font-size: 15px;
-    
-}
-
-#iperguntas:focus ~ .question,
-#iperguntas:valid ~ .question {
-    top: -23px;
-    left: 5px;
-    font-size: 15px;
-    
 }
 
 input#inome {
@@ -140,6 +118,25 @@ textarea#iperguntas{
     background-color: rgba(255, 255, 255, 0.514);
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.116);
 }
+
+
+#inome:focus ~ .name,
+#inome:valid ~ .name {
+    top: -23px;
+    left: 5px;
+    font-size: 15px;
+    
+}
+
+#iperguntas:focus ~ .question,
+#iperguntas:valid ~ .question {
+    top: -23px;
+    left: 5px;
+    font-size: 15px;
+    
+}
+
+
 
 input.Ssubmit {
     display: block;
@@ -193,7 +190,7 @@ h2 {
     font-size: 13px;
 }
 
-p.space1 {
+p.space {
     margin: 0px 0px 0px 0px;
 }
 
